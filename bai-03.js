@@ -35,6 +35,7 @@ let objStudent = [
     email: "ta@gmail.com",
   },
 ];
+console.table(objStudent);
 let jsonStudent = JSON.stringify(objStudent);
 console.log("Json is: ",jsonStudent);
 let objStudent2 = JSON.parse(jsonStudent);
